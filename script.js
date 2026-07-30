@@ -35,7 +35,7 @@ function sortByCap(data){
 }
 
 function sortByPer(data){
-    data.sort((a,b)=>a.price_change_24h - b.price_change_24h);
+    data.sort((a,b)=>a.price_change_percentage_24h - b.price_change_percentage_24h);
     displayData(data);
 }
 
