@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: white;
+    gap: 2rem;
+}
+
+#search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search input{
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#search button{
+    width: 19%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+table{
+    padding: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    margin-bottom: 1rem;
+}
+
+td{
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 1rem;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
