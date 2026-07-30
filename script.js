@@ -51,6 +51,11 @@ async function main() {
                 return data;
             }
         })
+        if(filteredData.length == 0){
+            document.getElementById("tabDiv").textContent = "No Data! Search for another..";
+        }else{
+            document.getElementById("tabDiv").textContent = "";
+        }
         displayData(filteredData);
     })
 
